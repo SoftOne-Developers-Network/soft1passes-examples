@@ -27,7 +27,7 @@ Push Notification Endpoint: https://s1passes.softone.gr/docs/#post-/s1epass/Noti
 **To get a new account for Soft1Passes please contact with Softone Technologies S.A.**
 
 
-⚠️ Everywhere you see <token> in body requests you need to change it with your clientId. 
+⚠️ Everywhere you see `<token>` in body requests you need to change it with your clientId. 
 Soft1Passes generates a clientId when you successfully Login through the API.
 Login EndPoint: https://s1passes.softone.gr/docs/#post-/s1epass/Login
 
