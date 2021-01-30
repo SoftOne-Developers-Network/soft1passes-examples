@@ -1,0 +1,116 @@
+{
+    "clientId": "<token>",
+    "form": {
+        "name": "AwesomeLoyaltyCardName",
+        "passbook": {
+            "style": "StoreCard",
+            "serialNumber": "{clientsn}",
+            "description": "Awesome Loyalty Pass",
+            "organizationName": "Awesome Company S.A.",
+            "logoText": "AW",
+            "labelColor": "rgb(255, 51, 51)",
+            "backgroundColor": "rgb(0,153,76)",
+            "foregroundColor": "rgb(255, 255, 0)",
+            "headerFields": [
+                {
+                    "key": "balance-point",
+                    "label": "Points",
+                    "value": "{points}"
+                }
+            ],
+            "secondaryFields": [
+                {
+                    "key": "member",
+                    "label": "Member",
+                    "value": "{member}"
+                }
+            ],
+            "auxiliaryFields": [
+                {
+                    "key": "offer-front",
+                    "label": "Latest Offer",
+                    "value": "{offer}"
+                }
+            ],
+            "backFields": [
+                {
+                    "key": "last-notification",
+                    "label": "Last Notification",
+                    "value": "{last_notification}"
+                },
+                {
+                    "key": "awesome-retail-website",
+                    "label": "Website",
+                    "value": "https://www.softone.gr/"
+                },
+                {
+                    "key": "contact-phone-number",
+                    "label": "Contact Us",
+                    "value": "21 1102 2222"
+                },
+                {
+                    "key": "contact-email",
+                    "label": "Email Us",
+                    "value": "info@softone.gr"
+                },
+                {
+                    "key": "terms",
+                    "label": "Terms of use",
+                    "value": "These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and..."
+                }
+            ],
+            "barcodes": [
+                {
+                    "type": "PKBarcodeFormatQR",
+                    "message": "{clientsn}",
+                    "encoding": "iso-8859-1"
+                }
+            ],
+            "relevantLocations": [
+                {
+                    "latitude": "37.9488192",
+                    "longitude": "23.6950249",
+                    "relevantText": "Awesome Retail S.A. HQ"
+                }
+            ],
+            "images": [
+                 {
+                    "type": "icon",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Icon1x.png"
+                },
+                {
+                    "type": "icon2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Icon2x.png"
+                },
+                {
+                    "type": "icon3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo3x.png"
+                },
+                {
+                    "type": "strip",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/StripGeneral1x.png"
+                },
+                {
+                    "type": "strip2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/StripGeneral2x.png"
+                },
+                {
+                    "type": "strip3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/StripGeneral3x.png"
+                },
+                {
+                    "type": "logo",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo1x.png"
+                },
+                {
+                    "type": "logo2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo2x.png"
+                },
+                {
+                    "type": "logo3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo3x.png"
+                }
+            ]
+        }
+    }
+}

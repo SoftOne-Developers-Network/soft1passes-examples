@@ -1,0 +1,123 @@
+{
+    "clientId": "<token>",
+    "form": {
+        "name": "AwesomeGenericName",
+        "passbook": {
+            "style": "generic",
+            "serialNumber": "{clientsn}",
+            "description": "Awesome Employee Pass",
+            "organizationName": "Awesome Company S.A.",
+            "logoText": "AW",
+            "labelColor": "rgb(255, 51, 51)",
+            "backgroundColor": "rgb(0,153,76)",
+            "foregroundColor": "rgb(255, 255, 0)",
+            "headerFields": [
+                {
+                    "key": "next-meeting-front",
+                    "label": "Next Meeting",
+                    "value": "{next_meeting}"
+                }
+            ],
+            "primaryFields": [
+                {
+                    "key": "fullname",
+                    "label": "Full Name",
+                    "value": "{fullname}"
+                }
+            ],
+            "secondaryFields": [
+                {
+                    "key": "employee-since",
+                    "label": "Since",
+                    "value": "{since}"
+                }
+            ],
+            "auxiliaryFields": [
+                {
+                    "key": "seniority",
+                    "label": "Level",
+                    "value": "{seniority}"
+                },
+                {
+                    "key": "department",
+                    "label": "Department",
+                    "value": "{department}"
+                }
+            ],
+            "backFields": [
+                {
+                    "key": "last-notification",
+                    "label": "Last Notification",
+                    "value": "{last_notification}"
+                },
+                {
+                    "key": "next-meeting-information-back",
+                    "label": "Next Meeting Information",
+                    "value": "{next_meeting_information_back}"
+                },
+                {
+                    "key": "remaining-days-off",
+                    "label": "Remaining Days Off",
+                    "value": "{remaining_days_off}"
+                },
+                {
+                    "key": "awesome-company-website",
+                    "label": "Company's Website",
+                    "value": "https://www.softone.gr/"
+                }
+            ],
+            "barcodes": [
+                {
+                    "type": "PKBarcodeFormatQR",
+                    "message": "{clientsn}",
+                    "encoding": "iso-8859-1"
+                }
+            ],
+            "relevantLocations": [
+                {
+                    "latitude": "37.9488192",
+                    "longitude": "23.6950249",
+                    "relevantText": "Awesome Company S.A. HQ"
+                }
+            ],
+            "images": [
+                 {
+                    "type": "icon",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Icon1x.png"
+                },
+                {
+                    "type": "icon2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Icon2x.png"
+                },
+                {
+                    "type": "icon3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo3x.png"
+                },
+                {
+                    "type": "thumbnail",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Thumbnail1x.png"
+                },
+                {
+                    "type": "thumbnail2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Thumbnail2x.png"
+                },
+                {
+                    "type": "thumbnail3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Thumbnail3x.png"
+                },
+                {
+                    "type": "logo",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo1x.png"
+                },
+                {
+                    "type": "logo2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo2x.png"
+                },
+                {
+                    "type": "logo3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo3x.png"
+                }
+            ]
+        }
+    }
+}

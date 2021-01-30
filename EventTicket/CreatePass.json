@@ -1,0 +1,43 @@
+{
+    "clientId": "<token>",
+    "data": {
+        "code": "505UniqPassIdentifier505",
+        "template": "AwesomeEventName",
+        "passbook": [
+            {
+                "key": "{clientsn}",
+                "value": "404UniqPassIdentifier606"
+            },
+            {
+                "key": "{time}",
+                "value": "21/10 18:30",
+                "changeMessage": "Event time has been updated: %@"
+            },
+             {
+                "key": "{theater_show}",
+                "value": "‎Tuesdays with Morrie",
+                "changeMessage": "Event details has been updated: %@"
+            }, {
+                "key": "{attendee}",
+                "value": "John One",
+                "changeMessage": "Personal information has benn updated: %@"
+            }, {
+                "key": "{venue_place}",
+                "value": "The Twilight Assembly Hall",
+                "changeMessage": "Event details has been updated: %@"
+            }, {
+                "key": "{seat}",
+                "value": "B3",
+                "changeMessage": "Event details has been updated: %@"
+            }, {
+                "key": "{actors}",
+                "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "changeMessage": "Event details has been updated: %@"
+            }, {
+                "key": "{more_about}",
+                "value": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "changeMessage": "Event details has been updated: %@"
+            }
+        ]
+    }
+}

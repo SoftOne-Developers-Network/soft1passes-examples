@@ -1,0 +1,46 @@
+{
+    "clientId": "<token>",
+    "data": {
+        "code": "202UniqPassIdentifier808",
+        "template": "AwesomeGenericName",
+        "passbook": [
+            {
+                "key": "{clientsn}",
+                "value": "202UniqPassIdentifier808"
+            }, {
+                "key": "{next_meeting}",
+                "value": "20/12 13:00",
+                "changeMessage": "New Meeting: %@"
+            }, {
+                "key": "{fullname}",
+                "value": "John One",
+                "changeMessage": "Your details has been updated: %@"
+            }, {
+                "key": "{since}",
+                "value": "12/12/2013",
+                "changeMessage": "Your details has been updated: %@"
+            }, {
+                "key": "{seniority}",
+                "value": "Account Manager",
+                "changeMessage": "Your details has been updated: %@"
+            }, {
+                "key": "{department}",
+                "value": "Support",
+                "changeMessage": "Your details has been updated: %@"
+            }, {
+                "key": "{last_notification}",
+                "value": "Welcome to Our Company. This is your digital Pass",
+                "changeMessage": " %@"
+            }, {
+                "key": "{next_meeting_information_back}",
+                "value": "20/12 13:00 6th Floor - Meeting Room 2",
+                "changeMessage": "New Meeting: %@"
+            }, {
+                "key": "{remaining_days_off}",
+                "value": "3",
+                "changeMessage": "Now you have %@ day(s) off"
+
+            }
+        ]
+    }
+}

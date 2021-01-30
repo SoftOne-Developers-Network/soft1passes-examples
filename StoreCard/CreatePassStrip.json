@@ -1,0 +1,29 @@
+{
+    "clientId": "<token>",
+    "data": {
+        "code": "303UniqPassIdentifier707",
+        "template": "AwesomeLoyaltyCardName",
+        "passbook": [
+            {
+                "key": "{clientsn}",
+                "value": "303UniqPassIdentifier707"
+            }, {
+                "key": "{points}",
+                "value": "22500",
+                "changeMessage": "Your balance has been updated %@"
+            }, {
+                "key": "{member}",
+                "value": "John One",
+                "changeMessage": "Your details has been updated %@"
+            }, {
+                "key": "{offer}",
+                "value": "Smartphones 30% off!",
+                "changeMessage": "New offer! %@"
+            }, {
+                "key": "{last_notification}",
+                "value": "Smartphones 30% off!",
+                "changeMessage": "New offer! %@"
+            }
+        ]
+    }
+}

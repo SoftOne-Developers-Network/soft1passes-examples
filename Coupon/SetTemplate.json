@@ -1,0 +1,108 @@
+{
+    "clientId": "<token>",
+    "form": {
+        "name": "AwesomeCouponName",
+        "passbook": {
+            "style": "Coupon",
+            "serialNumber": "{clientsn}",
+            "description": "Awesome Coupon 50% Discount!",
+            "organizationName": "Awesome Retail Company S.A.",
+            "logoText": "Awesome",
+            "labelColor": "rgb(255, 51, 51)",
+            "backgroundColor": "rgb(0,153,76)",
+            "foregroundColor": "rgb(255, 255, 0)",
+            "headerFields": [
+                {
+                    "key": "balance",
+                    "label": "Balance",
+                    "value": "{balance}"
+                }
+            ],
+            "primaryFields": [
+                {
+                    "key": "offer-amount",
+                    "label": "Gift Card",
+                    "value": "{offer_amount}"
+                }
+            ],
+            "auxiliaryFields": [
+                {
+                    "key": "expires",
+                    "label": "Expires",
+                    "value": "{expires}"
+                }
+            ],
+            "backFields": [
+                {
+                    "key": "latest-offer-back",
+                    "label": "Latest Offer",
+                    "value": "{latest_offer_back}"
+                },
+                {
+                    "key": "terms",
+                    "label": "Terms of use",
+                    "value": "These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and..."
+                },
+                {
+                    "key": "awesome-company-website",
+                    "label": "Our Website",
+                    "value": "https://www.softone.gr/"
+                },
+                {
+                    "key": "contact-phone-number",
+                    "label": "Contact Us",
+                    "value": "21 1102 2222"
+                },
+                {
+                    "key": "contact-email",
+                    "label": "Email Us",
+                    "value": "info@softone.gr"
+                }
+            ],
+            "barcodes": [
+                {
+                    "type": "PKBarcodeFormatQR",
+                    "message": "{clientsn}",
+                    "encoding": "iso-8859-1"
+                }
+            ],
+            "relevantLocations": [
+                {
+                    "latitude": "37.9488192",
+                    "longitude": "23.6950249",
+                    "relevantText": "Awesome Company S.A. HQ"
+                }
+            ],
+            "images": [
+                 {
+                    "type": "icon",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Icon1x.png"
+                },
+                {
+                    "type": "icon2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Icon2x.png"
+                },
+                {
+                    "type": "icon3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo3x.png"
+                },
+                {
+                    "type": "strip",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/String_Gift_Coupon1x.png"
+                },
+                {
+                    "type": "logo",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo1x.png"
+                },
+                {
+                    "type": "logo2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo2x.png"
+                },
+                {
+                    "type": "logo3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/demokit/Logo3x.png"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "clientId": "<token>",
+    "data": {
+        "code": "101UniqPassIdentifier909",
+        "template": "AwesomeCouponName",
+        "passbook": [
+            {
+                "key": "{clientsn}",
+                "value": "101UniqPassIdentifier909"
+            }, {
+                "key": "{balance}",
+                "value": "50%",
+                "changeMessage": "New Discount %@"
+            }, {
+                "key": "{offer_amount}",
+                "value": "50%",
+                "changeMessage": "New Discount %@"
+            }, {
+                "key": "{expires}",
+                "value": "12/12/2022",
+                "changeMessage": "Expiration date has been updated %@"
+            }, {
+                "key": "{latest_offer_back}",
+                "value": "Up to -50% on everything",
+                "changeMessage": "New Offer! %@"
+            }
+        ]
+    }
+}
