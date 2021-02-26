@@ -1,0 +1,42 @@
+{
+    "clientId": "<token>",
+    "data": {
+        "code": "101Charis101",
+        "template": "CoffeeBeanExpoEventTicket",
+        "passbook": [
+            {
+                "key": "{clientsn}",
+                "value": "101Charis101"
+            },
+            {
+                "key": "{start_date}",
+                "value": "16/06 18:00",
+                "changeMessage": "Start date has been updated: %@"
+            },
+            {
+                "key": "{attendee}",
+                "value": "Charis Charopoulos",
+                "changeMessage": "Member details has been updated: %@"
+            },
+            {
+                "key": "{access}",
+                "value": "All Levler",
+                "changeMessage": "Access details has been updated: %@"
+            },
+            {
+                "key": "{location}",
+                "value": "Hellas Expo",
+                "changeMessage": "Location field has benn updated: %@"
+            }, {
+                "key": "{ticket}",
+                "value": "Invitee",
+                "changeMessage": "Ticket details has been updated: %@"
+            },
+            {
+                "key": "{address}",
+                "value": "Ethnikis Antistaseos 48, Athens, Greece",
+                "changeMessage": "Address has been updated: %@"
+            }
+        ]
+    }
+}

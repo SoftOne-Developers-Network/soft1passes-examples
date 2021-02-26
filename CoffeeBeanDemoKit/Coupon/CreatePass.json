@@ -1,0 +1,33 @@
+{
+    "clientId": "<token>",
+    "data": {
+        "code": "10150offer101",
+        "template": "CoffeeBeanCoupon",
+        "passbook": [
+            {
+                "key": "{clientsn}",
+                "value": "101couponprimarystrip101"
+            },
+            {
+                "key": "{header_offer}",
+                "value": "50% off",
+                "changeMessage": "Offer has been updated: %@"
+            },
+            {
+                "key": "{offer_label}",
+                "value": "in your next order",
+                "changeMessage": "Offer details has been updated: %@"
+            },
+            {
+                "key": "{offer_value}",
+                "value": "50% off",
+                "changeMessage": "Offer details has been updated: %@"
+            },
+            {
+                "key": "{expires}",
+                "value": "20/12/2022",
+                "changeMessage": "Address has benn updated: %@"
+            }
+        ]
+    }
+}

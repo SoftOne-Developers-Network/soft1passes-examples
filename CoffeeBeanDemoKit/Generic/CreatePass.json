@@ -1,0 +1,42 @@
+{
+    "clientId": "<token>",
+    "data": {
+        "code": "101James101",
+        "template": "CoffeeBeansStaffPass",
+        "passbook": [
+            {
+                "key": "{clientsn}",
+                "value": "101James101"
+            },
+            {
+                "key": "{checkin_time}",
+                "value": "07:27",
+                "changeMessage": "Checkin time has been updated: %@"
+            },
+            {
+                "key": "{member}",
+                "value": "‎James Papadopoulos",
+                "changeMessage": "Member details has been updated: %@"
+            },
+            {
+                "key": "{position}",
+                "value": "Cashier",
+                "changeMessage": "Position details has been updated: %@"
+            },
+            {
+                "key": "{since}",
+                "value": "October 2019",
+                "changeMessage": "Since field has benn updated: %@"
+            }, {
+                "key": "{latest_update}",
+                "value": "10% off in snacks for our staff",
+                "changeMessage": "New Update: %@"
+            },
+            {
+                "key": "{remaining_day_off}",
+                "value": "14 Days left",
+                "changeMessage": "Remaining days off field has been updated: %@"
+            }
+        ]
+    }
+}

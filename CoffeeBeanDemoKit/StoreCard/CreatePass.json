@@ -1,0 +1,42 @@
+{
+    "clientId": "<token>",
+    "data": {
+        "code": "101John101",
+        "template": "CoffeeBeanCustomerStoreCard",
+        "passbook": [
+            {
+                "key": "{clientsn}",
+                "value": "101John101"
+            },
+            {
+                "key": "{points}",
+                "value": "10",
+                "changeMessage": "Points has been updated: %@"
+            },
+            {
+                "key": "{member}",
+                "value": "‎John Alexiou",
+                "changeMessage": "Member details has been updated: %@"
+            },
+            {
+                "key": "{offer_label}",
+                "value": "From 10:00 to 13:00",
+                "changeMessage": "New Offer: %@"
+            },
+            {
+                "key": "{offer_value}",
+                "value": "10% off",
+                "changeMessage": "New Offer: %@"
+            }, {
+                "key": "{latest_update}",
+                "value": "10% off in snacks!",
+                "changeMessage": "New Update: %@"
+            },
+            {
+                "key": "{usual}",
+                "value": "Espresso",
+                "changeMessage": "The usual has been updated: %@"
+            }
+        ]
+    }
+}

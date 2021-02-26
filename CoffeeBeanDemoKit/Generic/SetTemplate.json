@@ -1,0 +1,103 @@
+{
+    "clientId": "<token>",
+    "form": {
+        "name": "CoffeeBeansStaffPass",
+        "passbook": {
+            "style": "Generic",
+            "serialNumber": "{clientsn}",
+            "description": "Coffee Bean Staff Pass",
+            "organizationName": "Coffee Bean Ι.Κ.Ε.",
+            "logoText": "Coffee Bean",
+            "labelColor": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(69, 162, 181)",
+            "foregroundColor": "rgb(0, 0, 0)",
+            "headerFields": [
+                {
+                    "key": "checkin-time",
+                    "label": "Check in Time",
+                    "value": "{checkin_time}"
+                }
+            ],
+            "primaryFields": [
+                {
+                    "key": "member",
+                    "label": "Member",
+                    "value": "{member}"
+                }
+            ],
+            "secondaryFields": [
+                {
+                    "key": "position",
+                    "label": "Position",
+                    "value": "{position}"
+                },
+                {
+                    "key": "since",
+                    "label": "Since",
+                    "value": "{since}"
+                }
+            ],
+            "backFields": [
+                {
+                    "key": "Latest-Update",
+                    "label": "Latest Update",
+                    "value": "{latest_update}"
+                },
+                {
+                    "key": "remaining-day-off",
+                    "label": "Remaining Days Off",
+                    "value": "{remaining_day_off}"
+                },
+                {
+                    "key": "website",
+                    "label": "Website",
+                    "value": "https://softone.gr"
+                }
+            ],
+            "images": [
+                {
+                    "type": "icon",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/Icon.png"
+                },
+                {
+                    "type": "icon2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/icon2x.png"
+                },
+                {
+                    "type": "logo",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/logo.png"
+                },
+                {
+                    "type": "logo2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/logo2x.png"
+                },
+                {
+                    "type": "thumbnail",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/avatarthumbnail.png"
+                },
+                {
+                    "type": "thumbnail2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/avatarthumbnail2x.png"
+                },
+                {
+                    "type": "thumbnail3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/avatarthumbnail3x.png"
+                }
+            ],
+            "barcodes": [
+                {
+                    "type": "PKBarcodeFormatQR",
+                    "message": "{clientsn}",
+                    "encoding": "iso-8859-1"
+                }
+            ],
+            "relevantLocations": [
+                {
+                    "latitude": "37.9488192",
+                    "longitude": "23.6950249",
+                    "relevantText": "Coffee Bean Ι.Κ.Ε."
+                }
+            ]
+        }
+    }
+}

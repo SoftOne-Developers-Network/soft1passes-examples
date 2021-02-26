@@ -1,0 +1,108 @@
+{
+    "clientId": "<token>",
+    "form": {
+        "name": "CoffeeBeanExpoEventTicket",
+        "passbook": {
+            "style": "EventTicket",
+            "serialNumber": "{clientsn}",
+            "description": "Coffee Bean Expo",
+            "organizationName": "Coffee Bean Ι.Κ.Ε.",
+            "labelColor": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(174, 112, 57)",
+            "foregroundColor": "rgb(0, 0, 0)",
+            "headerFields": [
+                {
+                    "key": "start-date",
+                    "label": "Start Date",
+                    "value": "{start_date}"
+                }
+            ],
+            "primaryFields": [
+                {
+                    "key": "attendee",
+                    "label": "Attendee",
+                    "value": "{attendee}"
+                }
+            ],
+            "secondaryFields": [
+                {
+                    "key": "access",
+                    "label": "Access",
+                    "value": "{access}"
+                }
+            ],
+            "auxiliaryFields": [
+                {
+                    "key": "location",
+                    "label": "Location",
+                    "value": "{location}"
+                },
+                {
+                    "key": "ticket",
+                    "label": "Ticket",
+                    "value": "{ticket}"
+                }
+            ],
+            "backFields": [
+                {
+                    "key": "address",
+                    "label": "Διεύθυνση",
+                    "value": "{address}"
+                },
+                {
+                    "key": "website",
+                    "label": "Website",
+                    "value": "https://softone.gr"
+                }
+            ],
+            "images": [
+                {
+                    "type": "icon",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/Icon.png"
+                },
+                {
+                    "type": "icon2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/icon2x.png"
+                },
+                {
+                    "type": "logo",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/viplogo1x.png"
+                },
+                {
+                    "type": "logo2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/viplogo2x.png"
+                },
+                {
+                    "type": "background",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/background.png"
+                },
+                {
+                    "type": "thumbnail",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/Thumbnail1x.png"
+                },
+                {
+                    "type": "thumbnail2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/Thumbnail2x.png"
+                },
+                {
+                    "type": "thumbnail3x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/Thumbnail3x.png"
+                }
+            ],
+            "barcodes": [
+                {
+                    "type": "PKBarcodeFormatPDF417",
+                    "message": "{clientsn}",
+                    "encoding": "iso-8859-1"
+                }
+            ],
+            "relevantLocations": [
+                {
+                    "latitude": "37.9488192",
+                    "longitude": "23.6950249",
+                    "relevantText": "Coffee Bean Ι.Κ.Ε."
+                }
+            ]
+        }
+    }
+}

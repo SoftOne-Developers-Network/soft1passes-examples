@@ -1,0 +1,85 @@
+{
+    "clientId": "<token>",
+    "form": {
+        "name": "CoffeeBeanCoupon",
+        "passbook": {
+            "style": "Coupon",
+            "serialNumber": "{clientsn}",
+            "description": "Coffee Bean Generic Pass",
+            "organizationName": "Coffee Bean Ι.Κ.Ε.",
+            "logoText": "Coffee Bean",
+            "labelColor": "rgb(0, 0, 0)",
+            "backgroundColor": "rgb(208, 206, 205)",
+            "foregroundColor": "rgb(0, 0, 0)",
+            "headerFields": [
+                {
+                    "key": "header-offer",
+                    "label": "",
+                    "value": "{header_offer}"
+                }
+            ],
+            "primaryFields": [
+                {
+                    "key": "offer",
+                    "label": "{offer_label}",
+                    "value": "{offer_value}"
+                }
+            ],
+            "secondaryFields": [
+                {
+                    "key": "expires",
+                    "label": "Expires",
+                    "value": "{expires}"
+                }
+            ],
+            "backFields": [
+                {
+                    "key": "address",
+                    "label": "Address",
+                    "value": "Ethnikis Antistaseos 115, Athens, Greece"
+                },
+                {
+                    "key": "website",
+                    "label": "Website",
+                    "value": "https://softone.gr"
+                }
+            ],
+            "images": [
+                {
+                    "type": "icon",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/Icon.png"
+                },
+                {
+                    "type": "icon2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/icon2x.png"
+                },
+                {
+                    "type": "logo",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/logo.png"
+                },
+                {
+                    "type": "logo2x",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/logo2x.png"
+                },
+                {
+                    "type": "strip",
+                    "path": "https://soft1passes.blob.core.windows.net/imagepool/coffeebean/strip.png"
+                }
+            ],
+            "barcodes": [
+                {
+                    "type": "PKBarcodeFormatPDF417",
+                    "message": "{clientsn}",
+                    "encoding": "iso-8859-1"
+                }
+            ],
+            "relevantLocations": [
+                {
+                    "latitude": "37.9488192",
+                    "longitude": "23.6950249",
+                    "relevantText": "Coffee Bean Ι.Κ.Ε."
+                }
+            ]
+        }
+    }
+}
