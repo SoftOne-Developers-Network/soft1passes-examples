@@ -1,6 +1,6 @@
 {
     "clientId": "<token>",
-    "form": {
+    "template": {
         "name": "CoffeeBeanExpoEventTicket",
         "passbook": {
             "style": "EventTicket",

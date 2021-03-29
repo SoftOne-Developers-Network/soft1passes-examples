@@ -1,8 +1,8 @@
 {
     "clientId": "<token>",
-    "data": {
+    "pass": {
         "code": "202UniqPassIdentifier808",
-        "template": "AwesomeGenericName",
+        "template": "<template_pk>",
         "passbook": [
             {
                 "key": "{clientsn}",

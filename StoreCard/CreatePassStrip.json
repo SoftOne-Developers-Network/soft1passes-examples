@@ -1,8 +1,8 @@
 {
     "clientId": "<token>",
-    "data": {
+    "pass": {
         "code": "303UniqPassIdentifier707",
-        "template": "AwesomeLoyaltyCardName",
+        "template": "<template_pk>",
         "passbook": [
             {
                 "key": "{clientsn}",

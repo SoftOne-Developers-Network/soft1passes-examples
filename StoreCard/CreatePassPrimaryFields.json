@@ -1,8 +1,8 @@
 {
     "clientId": "<token>",
-    "data": {
+    "pass": {
         "code": "404UniqPassIdentifier606",
-        "template": "AwesomeLoyaltyCardNameFields",
+        "template": "<template_pk>",
         "passbook": [
             {
                 "key": "{clientsn}",

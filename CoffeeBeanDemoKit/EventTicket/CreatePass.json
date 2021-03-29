@@ -1,8 +1,8 @@
 {
     "clientId": "<token>",
-    "data": {
+    "pass": {
         "code": "101Charis101",
-        "template": "CoffeeBeanExpoEventTicket",
+        "template": "<template_pk>",
         "passbook": [
             {
                 "key": "{clientsn}",

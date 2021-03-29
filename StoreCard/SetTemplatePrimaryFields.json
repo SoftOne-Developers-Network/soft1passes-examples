@@ -1,6 +1,6 @@
 {
     "clientId": "<token>",
-    "form": {
+    "template": {
         "name": "AwesomeLoyaltyCardNameFields",
         "passbook": {
             "style": "StoreCard",

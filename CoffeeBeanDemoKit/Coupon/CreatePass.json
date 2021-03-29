@@ -1,8 +1,8 @@
 {
     "clientId": "<token>",
-    "data": {
+    "pass": {
         "code": "10150offer101",
-        "template": "CoffeeBeanCoupon",
+        "template": "<template_pk>",
         "passbook": [
             {
                 "key": "{clientsn}",

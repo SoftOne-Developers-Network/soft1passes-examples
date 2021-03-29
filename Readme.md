@@ -32,6 +32,22 @@ Soft1Passes generates a clientId when you successfully Login through the API.
 Login EndPoint: https://s1passes.softone.gr/docs/#post-/s1epass/Login
 
 
+
+⚠️ Change the `<template_pk>` with `template` value from the result of the `/SetTemplate`.
+
+In a `/SetTemplate` response the `<template_pk>` is here:
+
+```json
+{
+    "success": true,
+    "message": "UPDATED",
+    "template": {
+        "template": "<template_pk>"
+    }
+}
+``` 
+
+
 ## Help
 You should take a look at Soft1Passes's documentation in order to learn how to communicate with our Service.
 Soft1Passes Documentation: https://s1passes.softone.gr/docs/

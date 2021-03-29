@@ -1,6 +1,6 @@
 {
     "clientId": "<token>",
-    "data": {
+    "pass": {
         "code": "101James101",
         "template": "CoffeeBeansStaffPass",
         "passbook": [
