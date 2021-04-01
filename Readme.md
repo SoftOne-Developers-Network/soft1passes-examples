@@ -40,7 +40,7 @@ In a `/SetTemplate` response the `<template_pk>` is here:
 ```json
 {
     "success": true,
-    "message": "UPDATED",
+    "message": "CREATED",
     "template": {
         "template": "<template_pk>"
     }
